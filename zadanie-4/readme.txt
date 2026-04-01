@@ -36,7 +36,9 @@ Odpovedz stručne (3–5 viet na každú):
 2. Core Web Vitals (LCP) sú na červeno. 
     - Čo skontroluješ ako prvé na Shoptet e-shope?
 
-    ->
+    -> skontroloval by som ako rýchlo sa načítava hlavná časť stránky, to je to čo vidíme ako prvé
+    -> najpomalšie sa zvyknú načítavať obrázky takže tie by som kontroloval ako prvé
+    -> následne by som prekontroloval aj skripty, či nedochádza tam k spomaleniam. 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------------------------
@@ -50,21 +52,23 @@ Odpovedz stručne (3–5 viet na každú):
 4. Klient chce skryť ceny produktov na všetkých stránkach kategórií, ale nie na stránke konkrétneho produktu. 
     - Ako by si postupoval/a?
 
-    -> 
+    -> zvolil by som asi najľahšie riešenie a to upraviť šablónu (HTML/CSS/JS)
+    -> skryl by som cenu na stránkach kategórie cez CSS alebo v blade/html.
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 5. Potrebuješ spustiť vlastný kód v momente, keď zákazník klikne na tlačidlo „Pridať do košíka“ na Shoptet e-shope. 
     - Aký postup by si zvoli/la? Popíš možné spôsoby, ktoré ti napadajú.
 
-    ->
+    -> zvolil by som možnosť cez javascript, kde by som dal event listener na tlačidlo "pridať do košíka"
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 6. Potrebuješ cez Shoptet API získať informácie o stavoch objednávok, platobných metódach a krajinách, ktoré e-shop podporuje. 
     - Aký API endpoint by si použil/a a prečo?
 
-    ->
+    -> vybral by som si taký, ktorý by už z názvu vystihoval o čo sa jedna aby som to nemusel nejak hľadať hlbšie v logike o čo ide
+    -> napr. api/orders, alebo api/paymethods a niečo podobné.
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------------------------
