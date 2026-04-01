@@ -10,3 +10,16 @@
         - Upgates
 
 
+
+    1. WordPress / WooCommerce
+        - v prvom kroku by som asi skontroloval HTML, či sa tam nenachadzajú elementy, ktoré popisujú pôvodnú cenu a cenu po zlacnení
+        - tak by som napisal javascript, ktorý by kontroloval dané elementy či sú pri prislušnom produkte
+        - ak sú tak následne viem určiť či majú zľavu
+
+    2. Shoptet 
+        - postupoval by som úplne rovnako 
+        - hľadal by som elementy v HTML a podľa nich určil či produkt je v zľave alebo nie je
+        - teda ak pôvodná cena bola vyššia ako aktuálna produkt je zlacnený a zobrazím upozornenie 
+
+    3. Updates
+        - úplne rovnaký postup skrz HTML a elementy, následne javascript
