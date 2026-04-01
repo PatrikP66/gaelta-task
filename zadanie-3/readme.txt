@@ -31,7 +31,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     - v tomto kóde som našiel chybu v časti e.preventDefault; 
         - táto chyba sposobí že sa funkcia nikdy nespustí
+        - správne to má byť napísané e.preventDefault();
 
     - ďalšia chyba sa nachádza v .then(response => response.json)
         - v takomto prípade sa odkazujeme iba na funkciu a nie jej reálne volanie 
         - to znamená, že .then() dostane návratovú hodnotu funkciu, nie výsledok
+        - správne napísané to má byť .then(response => response.json())
+
+    - posledná chyba v kóde pri použití .val()
+        - .val() funguje pri práci s jQuery
+        - nakoľko tu máme čistý java script tak použijeme .value()
